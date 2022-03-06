@@ -7,10 +7,11 @@ import { rest } from "msw";
 import { setupServer } from "msw/node";
 import useProduct from '../hooks/useProduct';
 
+
 const server = setupServer(
 
     rest.post(
-        "http://localhost:8000/api/cart/1",
+        "http://localhost:8000/api/cart/2",
         (req, res, ctx) => {
             return res(
                 ctx.json(
@@ -48,8 +49,6 @@ test("addProduct", async () => {
         await addProduct();
     }
     );
-    const { message, quantity } = result.current;
-    console.log(message);
-    expect(message).toBe("Enregistré dans le panier");
+    const { quantity } = result.current;
     expect(quantity).toEqual(1);
 });
