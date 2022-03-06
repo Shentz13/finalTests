@@ -1,3 +1,5 @@
+[![CI](https://github.com/Shentz13/finalTests/actions/workflows/citest.yml/badge.svg)](https://github.com/Shentz13/finalTests/actions/workflows/citest.yml)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
