@@ -1,6 +1,6 @@
 [![CI](https://github.com/Shentz13/finalTests/actions/workflows/citest.yml/badge.svg)](https://github.com/Shentz13/finalTests/actions/workflows/citest.yml)
 
-CYPRESS
+# CYPRESS
 
 J'ai volontairement espacé les tests de 20sec pour éviter qu'ils ne passent avant le retour de l'API.
 
