@@ -1,5 +1,9 @@
 [![CI](https://github.com/Shentz13/finalTests/actions/workflows/citest.yml/badge.svg)](https://github.com/Shentz13/finalTests/actions/workflows/citest.yml)
 
+CYPRESS
+
+J'ai volontairement espacé les tests de 20sec pour éviter qu'ils ne passent avant le retour de l'API.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
