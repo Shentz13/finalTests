@@ -20,9 +20,9 @@ const Home = ({ setRoute }: { setRoute: (data: any) => void }) => {
       <div id="productCont">
         {products.map((product) => {
           return (
-            <React.Fragment>
+            <React.Fragment key={product.id}>
               <div
-                onClick={() => setRoute({ route: "product", data: product })} className="card"
+                onClick={() => setRoute({ route: "product", data: product })} className="card" id={product.id.toString()}
               >
                 <img src={product.image} alt="" />
                 <p>Figurine de {product.name}</p>
